@@ -12,6 +12,7 @@
 		0AC261662167C0C10031B7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC261642167C0C10031B7E2 /* Main.storyboard */; };
 		0AC261682167C0C80031B7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC261672167C0C80031B7E2 /* Assets.xcassets */; };
 		0AC2616B2167C0C80031B7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC261692167C0C80031B7E2 /* LaunchScreen.storyboard */; };
+		0AC261732167C6720031B7E2 /* RBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC261722167C6720031B7E2 /* RBButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0AC261672167C0C80031B7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AC2616A2167C0C80031B7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AC2616C2167C0C80031B7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC261722167C6720031B7E2 /* RBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0AC261602167C0C10031B7E2 /* AppDelegate.swift */,
+				0AC261722167C6720031B7E2 /* RBButton.swift */,
 				0AC261622167C0C10031B7E2 /* ViewController.swift */,
 				0AC261642167C0C10031B7E2 /* Main.storyboard */,
 				0AC261672167C0C80031B7E2 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				0AC261632167C0C10031B7E2 /* ViewController.swift in Sources */,
 				0AC261612167C0C10031B7E2 /* AppDelegate.swift in Sources */,
+				0AC261732167C6720031B7E2 /* RBButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Instantiate-inc.Round-Button";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Instantiate-inc.Round-Button";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
